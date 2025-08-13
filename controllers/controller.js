@@ -60,6 +60,33 @@ const denuncias =[
     data: "2019",
     descricao: "Mulher mantinha 50 gatos sem água, comida ou higiene adequada. Multa de R$ 150 mil; parte dos animais foi resgatada por voluntários."
   },
-
+  {
+    caso: "Linguiça com carne de cães e gatos",
+    especie: "Cães e gatos",
+    local: "Viana - ES",
+    data: "2019",
+    descricao: "Residência abatia cães e gatos para produção de linguiça. Responsáveis presos por maus-tratos, crime contra o consumo e crime ambiental."
+  },
+{
+    caso: "Rinha de cães em Mairiporã",
+    especie: "Cães (Pit bulls)",
+    local: "Mairiporã - SP",
+    data: "2019-12",
+    descricao: "Polícia fechou rinha de cães e resgatou 33 pit bulls, alguns mutilados. Várias prisões realizadas."
+  },
+  {
+    caso: "Chico e Guerreiro",
+    especie: "Cães",
+    local: "Petrópolis - RJ",
+    data: "2024",
+    descricao: "Dois cães gravemente feridos e desnutridos foram resgatados por ativistas após denúncia; receberam tratamento e foram encaminhados para adoção."
+  },
+  {
+    caso: "Cativeiro de silvestres em Mongaguá",
+    especie: "Aves e lagarto",
+    local: "Mongaguá - SP",
+    data: "2020",
+    descricao: "46 animais silvestres encontrados em cativeiro irregular e precário. Responsáveis autuados e animais enviados para reabilitação."
+  }
 ]
 
