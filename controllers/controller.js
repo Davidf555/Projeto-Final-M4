@@ -99,6 +99,18 @@ const criarDenuncia = (req, res) => {
     res.status(201).json(novaDenuncia);
 }
 
-const listarDenuncias = (req, res) =>{
+const listarDenuncias = (req, res) => {
     res.json(denuncias)
+}
+
+const deletarDenuncia = (req, res) => {
+    const { id } = req.params;
+
+    const index = avaliacoes.findIndex(p => p.id == id);
+
+    if (index === -1) {
+        return res.status(404).json({ mensagens: "Denuncia não encontrado" });
+    }
+    denuncias.splice(index, 1);
+    res.json({ mensagens: "Denuncia removida com sucesso" });
 }
