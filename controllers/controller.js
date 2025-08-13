@@ -46,4 +46,20 @@ const denuncias =[
     data: "2023",
     descricao: "Caçadores mataram e decapitaram três onças-pintadas, registrando em vídeo. Responsáveis foram presos, mas soltos durante processo."
   },
+  {
+    caso: "Canil clandestino de Curitiba",
+    especie: "Cães (várias raças)",
+    local: "Curitiba - PR",
+    data: "2019",
+    descricao: "Após denúncia, 36 cães foram resgatados de canil insalubre. Responsáveis multados em R$ 18 mil; animais encaminhados a ONG."
+  },
+  {
+    caso: "50 gatos em condições insalubres",
+    especie: "Gatos",
+    local: "São Paulo - SP",
+    data: "2019",
+    descricao: "Mulher mantinha 50 gatos sem água, comida ou higiene adequada. Multa de R$ 150 mil; parte dos animais foi resgatada por voluntários."
+  },
+
 ]
+
