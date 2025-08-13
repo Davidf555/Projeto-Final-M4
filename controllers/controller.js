@@ -98,3 +98,7 @@ const criarDenuncia = (req, res) => {
     denuncias.push(novaDenuncia);
     res.status(201).json(novaDenuncia);
 }
+
+const listarDenuncias = (req, res) =>{
+    res.json(denuncias)
+}
