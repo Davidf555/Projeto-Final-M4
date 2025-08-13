@@ -30,4 +30,20 @@ const denuncias =[
     data: "2021-11",
     descricao: "Mais de 1.000 búfalos e dezenas de cavalos foram encontrados sem comida e água em fazenda. Proprietário preso; penalidades podem somar centenas de anos de prisão e milhões em multas."
   },
+
+  {
+    caso: "Sansão",
+    especie: "Cachorro (Pit bull)",
+    local: "Confins - MG",
+    data: "2020-07",
+    descricao: "Pit bull teve as duas patas traseiras decepadas com foice por dois homens. Caso levou à mobilização nacional e aumento da pena na Lei de Crimes Ambientais."
+  },
+
+  {
+    caso: "Três onças-pintadas abatidas",
+    especie: "Onça-pintada",
+    local: "Cáceres - MT",
+    data: "2023",
+    descricao: "Caçadores mataram e decapitaram três onças-pintadas, registrando em vídeo. Responsáveis foram presos, mas soltos durante processo."
+  },
 ]
