@@ -1,3 +1,4 @@
+const e = require('express');
 const Denuncia = require('../models/model.js')
 
 const denuncias = [
@@ -115,16 +116,18 @@ const deletarDenuncia = (req, res) => {
     res.json({ mensagens: "Denuncia removida com sucesso" });
 }
 
-const editDenuncia = (req, res) => {
+const editarDenuncia = (req, res) => {
     const { id } = req.params;
     const { caso, especie, local, data, descricao } = req.body;
 
     const index = denuncias.findIndex(p => p.id == id);
 
-    if (index === -1) { 
+    if (index === -1) {
         return res.status(404).json({ mensagens: "Denuncia não encontrado" });
     }
 
     denuncias[index] = { ...denuncias[index], caso, especie, local, data, descricao }
     res.json({ mensagens: "Denuncia removida e editada com sucesso" });
 }
+
+module.exports = { criarDenuncia, listarDenuncias, deletarDenuncia, editarDenuncia };
