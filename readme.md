@@ -107,6 +107,9 @@ Servidor rodando em http://localhost:3000
 | DELETE | `/casos-denuncia-animais/deletar-denuncia/:id` | Remove denuncias por ID         |
 
 
+
+
+
 | Método | Rota            | Descrição                     |
 
 |--------|-----------------|-------------------------------|
