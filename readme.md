@@ -1,8 +1,8 @@
-# 📦 Denuncias de maus tratos aos animais
+# 📦 Denuncias de maus tratos aos animais e casos de impactos de energia renovavel
 
   
 
-API sobre casos de denuncias de maus tratos aos animais, desenvolvida em JavaScript, Node.js e express seguindo o padrão MVC.
+API sobre casos de denuncias de maus tratos aos animais e casos de impactos de energia renovavel, desenvolvida em JavaScript, Node.js e express seguindo o padrão MVC.
 
   
 
@@ -106,6 +106,18 @@ Servidor rodando em http://localhost:3000
 
 | DELETE | `//:id` | Remove denuncias por ID         |
 
+
+| Método | Rota            | Descrição                     |
+
+|--------|-----------------|-------------------------------|
+
+| GET    | `/`     | Lista todos os  casos de energia renovavel     |
+
+| POST   | `/`     | Cria um novo  caso de energia renovavel       |
+
+| PUT    | `//:id` | Atualiza o caso de energia renovavel por ID       |
+
+| DELETE | `//:id` | Remove caso de energia renovavel por ID         |
   
 
 ## :smiley_cat: Authors
