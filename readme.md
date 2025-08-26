@@ -80,7 +80,7 @@ cd Projeto-Final-M4
 
   
 
-npm install
+npm install express
 
   
 
@@ -98,26 +98,26 @@ Servidor rodando em http://localhost:3000
 
 |--------|-----------------|-------------------------------|
 
-| GET    | `/`     | Lista todos os  Denuncias      |
+| GET    | `/casos-denuncia-animais/listar-denuncia`     | Lista todos os  Denuncias      |
 
-| POST   | `/`     | Cria um novo   Denuncias        |
+| POST   | `/casos-denuncia-animais/criar-denuncia`     | Cria um novo   Denuncias        |
 
-| PUT    | `//:id` | Atualiza denuncias por ID       |
+| PUT    | `/casos-denuncia-animais/editar-denuncia/:id` | Atualiza denuncias por ID       |
 
-| DELETE | `//:id` | Remove denuncias por ID         |
+| DELETE | `/casos-denuncia-animais/deletar-denuncia/:id` | Remove denuncias por ID         |
 
 
 | Método | Rota            | Descrição                     |
 
 |--------|-----------------|-------------------------------|
 
-| GET    | `/`     | Lista todos os  casos de energia renovavel     |
+| GET    | `/casos-energia/listar-energia`     | Lista todos os  casos de energia renovavel     |
 
-| POST   | `/`     | Cria um novo  caso de energia renovavel       |
+| POST   | `/casos-energia/criar-energia`     | Cria um novo  caso de energia renovavel       |
 
-| PUT    | `//:id` | Atualiza o caso de energia renovavel por ID       |
+| PUT    | `/casos-energia/editar-energia/:id` | Atualiza o caso de energia renovavel por ID       |
 
-| DELETE | `//:id` | Remove caso de energia renovavel por ID         |
+| DELETE | `/casos-energia/deletar-energia/:id` | Remove caso de energia renovavel por ID         |
   
 
 ## :smiley_cat: Authors
