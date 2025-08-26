@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const { criarDenuncia, listarDenuncia, deletarDenuncia, editarDenuncia} = require('../controllers/controller.js');
+const { criarDenuncia, listarDenuncia, deletarDenuncia, editarDenuncia} = require('../controllers/denunciaController.js');
 
 router.post('/criar-denuncia', criarDenuncia);
 

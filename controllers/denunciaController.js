@@ -1,4 +1,4 @@
-const Denuncia = require('../models/model.js')
+const Denuncia = require('../models/denunciaModel.js');
 
 const denuncias = [
     {
