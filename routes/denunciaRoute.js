@@ -3,9 +3,9 @@ const router = express.Router();
 
 const { criarDenuncia, listarDenuncias, deletarDenuncia, editarDenuncia } = require('../controllers/denunciaController.js');
 
-const verificarDenuncia = require('../middlewares/verificarDenuncia.js');
+const validarDenuncia = require('../middlewares/verificarDenuncia.js');
 
-router.post('/criar-denuncia', verificarDenuncia, criarDenuncia);
+router.post('/criar-denuncia', validarDenuncia, criarDenuncia);
 
 router.get('/listar-denuncia', listarDenuncias);
 

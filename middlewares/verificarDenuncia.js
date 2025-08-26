@@ -10,4 +10,4 @@ function validarDenuncia(req, res, next) {
     next();
 }
 
-module.exports = { validarDenuncia };
+module.exports = validarDenuncia;

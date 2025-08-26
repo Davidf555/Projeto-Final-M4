@@ -3,9 +3,9 @@ const router = express.Router();
 
 const { criarCasosEnergia, listarCasosEnergia, deletarCasosEnergia, editarCasosEnergia } = require('../controllers/energiaController.js');
 
-const verificarEnergia = require('../middlewares/verificarEnergia.js');
+const validarCasosEnergia = require('../middlewares/verificarEnergia.js');
 
-router.post('/criar-energia', verificarEnergia, criarCasosEnergia);
+router.post('/criar-energia', validarCasosEnergia, criarCasosEnergia);
 
 router.get('/listar-energia', listarCasosEnergia);
 

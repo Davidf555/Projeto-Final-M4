@@ -10,4 +10,4 @@ function validarCasosEnergia(req, res, next) {
     next();
 }
 
-module.exports = { validarCasosEnergia };
+module.exports = validarCasosEnergia;
