@@ -10,6 +10,10 @@ app.use(express.json());
 app.use('/casos-denuncia-animais', denunciaRotas);
 app.use('/casos-energia', energiaRotas);
 
+app.get("/", (req, res)=>{
+  res.send("A API está online")
+})
+
 app.listen(port, () => {
     console.log("Servidor rodando na porta 3000");
 });
