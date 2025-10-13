@@ -2,12 +2,12 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 
-const denunciaRotas = require('./routes/denunciaRoute.js');
+const ongRotas = require('./routes/ongRoute.js');
 const energiaRotas = require('./routes/energiaRoute.js');
 
 app.use(express.json());
 
-app.use('/casos-denuncia-animais', denunciaRotas);
+app.use('/ongs', ongRotas);
 app.use('/casos-energia', energiaRotas);
 
 app.get("/", (req, res)=>{
