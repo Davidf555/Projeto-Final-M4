@@ -1,10 +1,12 @@
 const express = require('express');
+const cors = require("cors");
 const app = express();
 const port = process.env.PORT || 3000;
 
 const ongRotas = require('./routes/ongRoute.js');
 const energiaRotas = require('./routes/energiaRoute.js');
 
+app.use(cors());
 app.use(express.json());
 
 app.use('/ongs', ongRotas);
