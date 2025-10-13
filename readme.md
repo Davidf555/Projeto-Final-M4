@@ -69,10 +69,10 @@ O servidor estará rodando em: [http://localhost:3000](http://localhost:3000)
 
 | Método  | Rota                   | Descrição                                 |
 | ------- | ---------------------- | ----------------------------------------- |
-| GET     | `/ongs/listar`         | Lista todas as ONGs cadastradas           |
-| POST    | `/ongs/criar`          | Cadastra uma nova ONG                     |
-| PUT     | `/ongs/editar/:id`     | Atualiza uma ONG existente por ID         |
-| DELETE  | `/ongs/deletar/:id`    | Remove uma ONG por ID                     |
+| GET     | `/ongs/listar-ongs`         | Lista todas as ONGs cadastradas           |
+| POST    | `/ongs/criar-ong`          | Cadastra uma nova ONG                     |
+| PUT     | `/ongs/editar-ong/:id`     | Atualiza uma ONG existente por ID         |
+| DELETE  | `/ongs/deletar-ong/:id`    | Remove uma ONG por ID                     |
 
 ### Casos de Energia Renovável
 
